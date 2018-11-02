@@ -10,16 +10,17 @@
     <version>1.0-SNAPSHOT</version>
     <modules>
         <module>simple-example</module>
+        <module>develop-guide</module>
     </modules>
 
 
     <dependencies>
 
-<dependency>
-    <groupId>com.rabbitmq</groupId>
-    <artifactId>amqp-client</artifactId>
-    <version>5.5.0</version>
-</dependency>
+        <dependency>
+            <groupId>com.rabbitmq</groupId>
+            <artifactId>amqp-client</artifactId>
+            <version>5.5.0</version>
+        </dependency>
 
     </dependencies>
 
